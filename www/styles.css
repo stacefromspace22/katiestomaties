@@ -1,8 +1,97 @@
 body {
-	background-color: lightblue;
+	margin: 0;
+	font-family: "verdana";
 }
 
-h1 {
-	color: navy;
-	margin-left: 20px;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #12400f;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: antiquewhite;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #1ddb65;
+	color: #12400f;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .content {
+	padding-top: 60px;
+}
+
+.hero {
+	/* Sizing */
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/* Text styles */
+	text-align: center;
+	color: antiquewhite;
+
+	/* Background styles */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(dirtyhandsandsprout.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.hero h1 {
+	/* Text styles */
+	font-size: 5em;
+
+	/* Margins */
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+.hero .btn {
+	/* Positioning and sizing */
+	display: block;
+	width: 300px;
+
+	/* Padding and margins */
+	padding: 1em;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+
+	/* Text styles */
+	color: antiquewhite;
+	font-size: 1.5em;
+
+	/* Border styles */
+	border: 3px solid antiquewhite;
+	border-radius: 20px;
+
+	background-color: green;
+}
+
+.btn:hover {
+	background-color: #12400f;
+	color: white;
+}
 }
