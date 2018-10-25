@@ -89,11 +89,19 @@ li a:hover {
 	border: 3px solid antiquewhite;
 	border-radius: 20px;
 
-	background-color: green;
+	background-color: #12400f;
 }
 
 .btn:hover {
-	background-color: #12400f;
-	color: white;
+	background-color: #1ddb65;
+	color: #3f230d;
 }
+
+.footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #12400f;
+	color: antiquewhite;
+	text-align: center;
 }
