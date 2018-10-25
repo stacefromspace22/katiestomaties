@@ -9,10 +9,14 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: #12400f;
+	position: fixed;
+	width: 100%;
+
+
 }
 
 li {
-	float: left;
+	float: right;
 }
 
 li a {
@@ -26,16 +30,6 @@ li a {
 li a:hover {
 	background-color: #1ddb65;
 	color: #12400f;
-}
-
-.sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
-
-.sticky + .content {
-	padding-top: 60px;
 }
 
 .hero {
