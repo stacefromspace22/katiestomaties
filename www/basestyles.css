@@ -1,8 +1,9 @@
 body {
-    margin: 0;
-    font-family: "verdana";
-    color: #12400f;
-    background-color: antiquewhite;
+	margin: 0;
+	font-family: "verdana";
+	color: #12400f;
+	background-color: antiquewhite;
+}
 
 .gridcontainer {
 	display: grid;
