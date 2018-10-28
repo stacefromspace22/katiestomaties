@@ -4,6 +4,35 @@ body {
 	color: #12400f;
 	background-color: antiquewhite;
 }
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #12400f;
+	position: fixed;
+	width: 100%;
+
+
+}
+
+li {
+	float: right;
+}
+
+li a {
+	font-size: 1.25em;
+	display: block;
+	color: antiquewhite;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #1ddb65;
+	color: #12400f;
+}
 
 .gridcontainer {
 	display: grid;
@@ -38,3 +67,5 @@ body {
 	grid-column: 1 / 4;
 	grid-row: 5;
 }
+
+
